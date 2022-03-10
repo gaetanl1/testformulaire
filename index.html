@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formulaire de connexion</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+</head>
+<body>
+  <header id="header">
+    <div class="top-header">
+        <div class="">
+            <a href="">
+                <img class="logo" src="/assets/img/not_found.png" alt="" srcset="">
+            </a>
+        </div>
+        <div class="profil">
+            <a href="" >
+                <p class="connected">SE CONNECTER</p>
+            </a>
+            <a href="">
+                <p>S'ENREGISTER</p>
+            </a>
+            <!-- 
+                A afficher quand l'utilisateur est connecté
+                <a href=""><img src="../assets/img/not_found.png" alt="" srcset=""></a>
+                <a href=""><p>Pseudo</p></a>
+            -->
+        </div>
+    </div>
+    <div class="bottom-header">
+        <div>
+            <a href="">
+                <p>ANIME</p>
+            </a>
+            <a href="">
+                <p>MANGA</p>
+            </a>
+        </div>
+        <div class="search-bar">
+            <input class="input" type="text" placeholder="Rechercher...">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </div>
+</header> 
+  <form>
+    <h1>Se connecter avec :</h1>
+    <div class="social-media">
+      <p><i class="fab fa-google"></i></p>
+      <p><i class="fab fa-youtube"></i></p>
+      <p><i class="fab fa-facebook-f"></i></p>
+      <p><i class="fab fa-twitter"></i></p>
+    </div>
+    <p class="choose-email">ou utiliser mon adresse e-mail :</p>
+    
+    <div class="inputs">
+      <input type="email ou Username" placeholder="Email ou Username" pattern="[A-Za-z0-9_]{2,16}" or pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required />
+      <input type="password" placeholder="Mot de passe">
+    </div>
+    <p class="inscription">Je n'ai pas de <span>compte</span>. Je m'en <span>crée</span> un.</p>
+    <div align="center">
+      <button type="submit">Se connecter</button>
+    </div>
+  </form>
+</body>
+</html>
